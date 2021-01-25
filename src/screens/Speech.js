@@ -6,12 +6,9 @@ import React, {
     StyleSheet,
     Text,
     View,
-    Image
   } from 'react-native';
-  import Header from '../header/layouts/Header'
-  import Styles from './statics'
 
-  export default class Home extends Component {
+  export default class Speech extends Component {
     static navigationOptions =
      {
       headerShown: false
@@ -28,10 +25,9 @@ import React, {
 
           return (
             <View style={styles.container}>
-              <Header/>
-              <Image style={Styles.welcome_image}
-                    source={require('./statics/images/baby_with_phone.jpg')}>
-              </Image>
+                    <Text>
+                        Hianatra hiteny ireo tsipelina sarotra
+                    </Text>
             </View>
           );
         }
